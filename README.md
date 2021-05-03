@@ -2,6 +2,34 @@
 
 normalize-url is a Java library for normalizing URLs.
 
+## Installation
+
+Maven:
+
+```xml
+<dependency>
+  <groupId>net.nebupookins</groupId>
+  <artifactId>normalize-url</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
+Gradle Groovy:
+
+```groovy
+implementation 'net.nebupookins:normalize-url:1.0.0'
+```
+
+Gradle Kotlin
+```kotlin
+implementation("net.nebupookins:normalize-url:1.0.0")
+```
+
+SBT
+```scala
+libraryDependencies += "net.nebupookins" % "normalize-url" % "1.0.0"
+```
+
 ## Usage
 
 ```java
